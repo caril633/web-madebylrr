@@ -1,0 +1,1770 @@
+{
+ "meta": {
+  "name": "《管理信息系统》课程知识库",
+  "version": "2.0",
+  "course": "管理信息系统",
+  "scope": "第五章 管理信息系统规划 / 第四章 数据库设计 / SQL 查询（基础与嵌套）",
+  "entity_count": 23,
+  "item_count": 39,
+  "updated": "2026-10-18",
+  "purpose": "为 AI 助教提供可检索、可映射、可批改的课程知识底座；同时支撑平台 39 道练习题的学情归因",
+  "conventions": {
+   "entity_id": "E01–E23，回答中引用格式【E07】",
+   "item_id": "平台题目唯一标识，形如 sql.q13 / dfd.draw.lib / bpm.blank.b2",
+   "error_code": "DF-xx 数据流图 / SQ-xx SQL / BP-xx 业务流程",
+   "rule": "学生报题号时按 items 直接定位知识点，禁止猜测"
+  },
+  "platform": {
+   "url": "https://mis-lab-assistant.app.workbuddy.host/",
+   "labs": [
+    "dfd 实验一 制作数据流图",
+    "sql 实验二 学习 SQL 语句",
+    "bpm 实验三 分析业务流程"
+   ],
+   "storage": "未登录写 localStorage；登录后写云端 lab_progress 表，按题合并"
+  }
+ },
+ "entities": [
+  {
+   "id": "E01",
+   "name": "信息系统规划",
+   "chapter": "第五章",
+   "attributes": {
+    "definition": "将组织战略目标转化为信息系统战略目标，绘制建设蓝图，解决信息孤岛问题",
+    "main_contents": [
+     "总目标、战略、总体结构",
+     "现有系统现状分析",
+     "可行性研究(技术、经济、管理)",
+     "企业流程重组BPR",
+     "技术发展方向预测"
+    ],
+    "mnemonic": "目现可流技",
+    "output": "系统规划报告",
+    "constraint": "规划报告必须经过评审，才可进入系统分析阶段"
+   },
+   "misconceptions": [
+    "把系统规划等同于写技术方案",
+    "认为可行性研究只看技术"
+   ]
+  },
+  {
+   "id": "E02",
+   "name": "诺兰阶段模型",
+   "chapter": "第五章",
+   "attributes": {
+    "stage_list": [
+     "初始阶段",
+     "传播(蔓延)阶段",
+     "控制阶段",
+     "集成阶段",
+     "数据管理阶段",
+     "成熟阶段"
+    ],
+    "error_point": "维护阶段不属于诺兰六阶段"
+   },
+   "misconceptions": [
+    "把「维护阶段」当成诺兰六阶段之一",
+    "认为阶段可以跳跃"
+   ]
+  },
+  {
+   "id": "E03",
+   "name": "规划方法",
+   "chapter": "第五章",
+   "attributes": {
+    "method_list": [
+     {
+      "name": "CSF关键成功因素法",
+      "desc": "抓取高层关键成功要素，确定系统目标"
+     },
+     {
+      "name": "SST战略目标集转化法",
+      "desc": "汇总多方诉求形成战略集合"
+     },
+     {
+      "name": "BSP企业系统规划法",
+      "desc": "自上而下识别目标业务过程数据，自底向上搭建系统，适合大型系统"
+     }
+    ],
+    "implementation_strategy": [
+     "自顶向下(总体规划优先)",
+     "自底向上(局部迭代优先)"
+    ]
+   },
+   "misconceptions": [
+    "混淆 CSF 与 BSP 的适用场景",
+    "把实施策略与规划方法混为一谈"
+   ]
+  },
+  {
+   "id": "E04",
+   "name": "业务流程图",
+   "chapter": "第五章",
+   "attributes": {
+    "purpose": "描述现行业务流转，侧重人和单据，区别于数据流图DFD",
+    "graph_elements": [
+     "业务处理单位(方框)",
+     "业务处理(圆角矩形)",
+     "单据报表(折角矩形)",
+     "数据存储(圆柱)",
+     "外部实体(椭圆)"
+    ],
+    "draw_steps": [
+     "业务提问",
+     "口语抽象生成业务活动清单",
+     "绘制流程图",
+     "设计测试习题"
+    ],
+    "mnemonic": "实体→单位→查存储→登单据→回实体",
+    "case_examples": [
+     "图书馆借书",
+     "学生选课",
+     "学生请假",
+     "食堂就餐",
+     "教材领取"
+    ],
+    "image_recognize_hint": {
+     "unit": "方框：业务处理单位，代表岗位/科室",
+     "proc": "圆角矩形：业务处理，代表一个具体动作",
+     "doc": "折角矩形：单据、报表，业务凭证",
+     "store": "圆柱：数据存储，台账文件",
+     "ext": "椭圆：外部实体，系统之外人或单位",
+     "common_mistake": [
+      "混淆外部实体与业务处理单位",
+      "审批流程缺少「不通过」回流箭头",
+      "箭头不标注单据/业务信息"
+     ]
+    }
+   },
+   "misconceptions": [
+    "把外部实体画成方框（那是 DFD 的画法）",
+    "单位与处理混画",
+    "审批流程只画通过分支"
+   ]
+  },
+  {
+   "id": "E05",
+   "name": "数据库设计",
+   "chapter": "第四章",
+   "attributes": {
+    "design_principle": "三分技术，七分管理，十二分基础数据",
+    "stage_count": 6,
+    "stages": [
+     "需求分析",
+     "概念结构设计",
+     "逻辑结构设计",
+     "物理设计",
+     "数据库实施",
+     "运行维护"
+    ],
+    "mnemonic": "求概逻物实施维"
+   },
+   "misconceptions": [
+    "六阶段顺序记错",
+    "把概念设计与逻辑设计合并"
+   ]
+  },
+  {
+   "id": "E06",
+   "name": "需求分析阶段",
+   "chapter": "第四章",
+   "attributes": {
+    "task": "调研业务，明确信息需求、处理需求、安全性完整性需求",
+    "output": [
+     "数据流图DFD",
+     "数据字典",
+     "需求分析说明书"
+    ]
+   },
+   "misconceptions": [
+    "以为需求分析只画图不写文档",
+    "跳过需求分析直接建表"
+   ]
+  },
+  {
+   "id": "E07",
+   "name": "数据流图DFD",
+   "chapter": "第四章",
+   "attributes": {
+    "graph_elements": [
+     "外部实体(方框)",
+     "处理(圆形)",
+     "数据存储(开口矩形)",
+     "数据流(单向箭头)"
+    ],
+    "layer_rule": [
+     "顶层图",
+     "0层图",
+     "1层子图"
+    ],
+    "layer_constraint": "父图子图必须保持输入输出数据流平衡",
+    "draw_steps": [
+     "识别外部实体",
+     "识别处理(动词短语)",
+     "识别数据存储",
+     "连接并命名数据流"
+    ],
+    "mnemonic": "找人→找事→找账→连线",
+    "naming_pattern": {
+     "entity_to_process": "××申请 / 请求 / 单",
+     "process_to_store": "××记录 / 信息",
+     "store_to_process": "××数据",
+     "process_to_entity": "××报表 / 结果"
+    },
+    "common_errors": [
+     "使用双向数据流",
+     "处理只有输入没有输出",
+     "处理只有输出没有输入",
+     "外部实体之间直接连线",
+     "父图子图输入输出不一致",
+     "数据存储只进不出/只出不进"
+    ],
+    "scoring_weights": {
+     "要素齐备": 40,
+     "处理有进有出": 20,
+     "存储既写又读": 15,
+     "无实体直连": 10,
+     "命名合理": 15
+    },
+    "image_recognize_hint": {
+     "entity": "方框：外部实体，系统外部人/组织",
+     "process": "圆形：处理，代表数据加工动作",
+     "store": "开口矩形：数据存储",
+     "dataflow": "单向箭头：数据流，必须有业务名称；禁止双向箭头",
+     "check_points": [
+      "检查处理是否有输入输出",
+      "禁止外部实体直连",
+      "存储读写完整性",
+      "每条数据流必须命名"
+     ]
+    }
+   },
+   "misconceptions": [
+    "顶层图画出多个处理",
+    "把数据存储当外部实体",
+    "双向箭头代替两条单向流",
+    "图形位置当作评分点"
+   ]
+  },
+  {
+   "id": "E08",
+   "name": "数据字典",
+   "chapter": "第四章",
+   "attributes": {
+    "purpose": "与DFD配套，精确定义系统全部数据；DFD为骨架，数据字典为血肉",
+    "elements": [
+     "数据项(最小不可拆分单元)",
+     "数据结构",
+     "数据流",
+     "数据存储",
+     "处理过程(判定表/判定树描述逻辑)"
+    ]
+   },
+   "misconceptions": [
+    "认为数据字典可有可无",
+    "把数据字典写成表结构说明"
+   ]
+  },
+  {
+   "id": "E09",
+   "name": "概念结构设计阶段",
+   "chapter": "第四章",
+   "attributes": {
+    "feature": "独立于硬件与DBMS",
+    "output": [
+     "局部E-R图",
+     "全局E-R图"
+    ],
+    "conflict_types": [
+     "属性冲突",
+     "命名冲突",
+     "结构冲突"
+    ],
+    "optimize_operation": "消除冗余数据、冗余联系"
+   },
+   "misconceptions": [
+    "在概念设计阶段就考虑具体数据库产品",
+    "忽略局部E-R图到全局图的合并冲突"
+   ]
+  },
+  {
+   "id": "E10",
+   "name": "E-R图",
+   "chapter": "第四章",
+   "attributes": {
+    "components": [
+     "实体",
+     "联系",
+     "属性"
+    ],
+    "relation_types": [
+     "1:1",
+     "1:n",
+     "m:n",
+     "多元联系"
+    ],
+    "convert_rules": [
+     "实体各自转换为关系模式",
+     "1:1联系：可独立建表或合并到任意一端实体",
+     "1:n联系：优先合并至n端实体",
+     "m:n联系：必须独立建表，主键为两端实体主键组合",
+     "多元联系参照m:n规则处理"
+    ]
+   },
+   "misconceptions": [
+    "把 m:n 联系合并进某一端导致数据冗余",
+    "把属性画成实体"
+   ]
+  },
+  {
+   "id": "E11",
+   "name": "逻辑结构设计阶段",
+   "chapter": "第四章",
+   "attributes": {
+    "task": "E-R图转换为关系模式，范式优化，生成用户子模式",
+    "output": [
+     "关系模式集合",
+     "视图(用户子模式)"
+    ],
+    "decompose_method": [
+     "水平分解(按元组行拆分)",
+     "垂直分解(按属性列拆分)"
+    ],
+    "decompose_constraint": "必须满足无损连接、保持函数依赖"
+   },
+   "misconceptions": [
+    "分解后丢失函数依赖",
+    "以为分解一定提升性能"
+   ]
+  },
+  {
+   "id": "E12",
+   "name": "关系模式与范式",
+   "chapter": "第四章",
+   "attributes": {
+    "concepts": [
+     "函数依赖",
+     "部分函数依赖",
+     "传递函数依赖"
+    ],
+    "normal_form": [
+     "1NF",
+     "2NF",
+     "3NF"
+    ],
+    "abnormal_types": [
+     "插入异常",
+     "删除异常",
+     "更新异常"
+    ],
+    "optimize_note": "范式不是越高越好；频繁多表连接查询可适度保留冗余；冗余字段优先使用视图实现"
+   },
+   "misconceptions": [
+    "认为范式越高越好",
+    "把 2NF 的问题误判为 3NF",
+    "分不清部分依赖与传递依赖"
+   ]
+  },
+  {
+   "id": "E13",
+   "name": "物理设计阶段",
+   "chapter": "第四章",
+   "attributes": {
+    "task": "选定存储结构、存取路径、索引、数据存放位置",
+    "evaluation_dimension": [
+     "时间效率",
+     "空间效率",
+     "维护代价"
+    ],
+    "index_selection_rule": "查询频繁、区分度高的字段适合建立索引；索引会增加增删改维护开销"
+   },
+   "misconceptions": [
+    "认为索引越多越快",
+    "在低区分度字段建索引"
+   ]
+  },
+  {
+   "id": "E14",
+   "name": "数据库实施阶段",
+   "chapter": "第四章",
+   "attributes": {
+    "steps": [
+     "DDL定义数据库结构",
+     "ETL数据装载入库",
+     "应用程序调试、系统试运行"
+    ],
+    "suggestions": [
+     "先导入小批量数据调试，再大批量入库",
+     "优先调试数据库恢复功能",
+     "同步整理项目文档"
+    ]
+   },
+   "misconceptions": [
+    "直接全量导入导致排错困难",
+    "忽略试运行"
+   ]
+  },
+  {
+   "id": "E15",
+   "name": "数据库运行维护阶段",
+   "chapter": "第四章",
+   "attributes": {
+    "dba_duty": [
+     "数据库转储与恢复",
+     "安全性完整性管控",
+     "性能监控分析调优",
+     "数据库重组织",
+     "数据库重构造"
+    ],
+    "reorganize": "不修改逻辑设计，仅整理存储碎片，回收空间",
+    "reconstruct": "修改模式/内模式：增加字段、修改字段类型、增删索引等"
+   },
+   "misconceptions": [
+    "混淆重组织与重构造",
+    "认为维护阶段不需要文档"
+   ]
+  },
+  {
+   "id": "E16",
+   "name": "SQL基础语法",
+   "chapter": "SQL 课件",
+   "attributes": {
+    "ddl": "CREATE TABLE，支持主键PRIMARY KEY、NOT NULL、CHECK约束",
+    "dql": [
+     "SELECT指定列",
+     "SELECT * 查询全部列",
+     "DISTINCT去重",
+     "WHERE条件(=、BETWEEN、LIKE通配%)",
+     "ORDER BY排序(ASC/DESC)",
+     "聚合函数COUNT、MAX、MIN",
+     "AS别名"
+    ],
+    "dml": [
+     "INSERT INTO 插入数据",
+     "UPDATE更新：不加WHERE会更新全表，必须谨慎",
+     "DELETE FROM删除：不加WHERE会清空整张表，必须谨慎"
+    ],
+    "syntax_order": "SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY",
+    "dataset": {
+     "Customers": 91,
+     "Products": 77,
+     "Orders": 182,
+     "OrderDetails": "明细表"
+    }
+   },
+   "misconceptions": [
+    "字符串不加单引号",
+    "聚合函数写进 WHERE",
+    "DISTINCT 当成函数写在列名后",
+    "UPDATE/DELETE 漏 WHERE"
+   ]
+  },
+  {
+   "id": "E17",
+   "name": "SQL嵌套查询",
+   "chapter": "SQL 课件",
+   "attributes": {
+    "definition": "在WHERE子句或者HAVING短语中嵌套SELECT语句；外层称为父查询，内层称为子查询",
+    "restriction": "子查询禁止使用ORDER BY",
+    "execution_order": "非相关子查询先执行内层；相关子查询对外层每一行执行一次",
+    "optimize_tip": "部分嵌套查询可以改写为JOIN连接，提升可读性与执行效率"
+   },
+   "misconceptions": [
+    "子查询里写 ORDER BY",
+    "分不清相关子查询的执行次数",
+    "以为嵌套一定比 JOIN 慢"
+   ]
+  },
+  {
+   "id": "E18",
+   "name": "IN谓词嵌套查询",
+   "chapter": "SQL 课件",
+   "attributes": {
+    "feature": "子查询返回值集合；多数为非相关子查询，子查询独立执行",
+    "logic": "父查询判断字段值是否存在于子查询返回集合",
+    "equivalent": "= ANY 与 IN 等价"
+   },
+   "misconceptions": [
+    "子查询返回多行却用 = 比较",
+    "误以为 IN 会自动去重后参与排序"
+   ]
+  },
+  {
+   "id": "E19",
+   "name": "比较运算符嵌套查询",
+   "chapter": "SQL 课件",
+   "attributes": {
+    "operator": [
+     ">",
+     "<",
+     "=",
+     ">=",
+     "<=",
+     "!="
+    ],
+    "feature": "子查询必须返回单个值，常搭配聚合函数AVG、MAX、MIN；多为相关子查询",
+    "error_example": "WHERE UnitPrice > (SELECT UnitPrice FROM Products WHERE CategoryID = 1) —— 子查询返回多行即报错"
+   },
+   "misconceptions": [
+    "子查询返回多行仍用 >",
+    "把标量子查询写成集合子查询"
+   ]
+  },
+  {
+   "id": "E20",
+   "name": "ANY_ALL谓词嵌套查询",
+   "chapter": "SQL 课件",
+   "attributes": {
+    "any_logic": "与集合中任意一个值满足条件",
+    "all_logic": "与集合中全部值满足条件",
+    "equivalent_aggregate": ">ANY 等价 >MIN；>ALL 等价 >MAX；<ANY 等价 <MAX；<ALL 等价 <MIN"
+   },
+   "misconceptions": [
+    "ANY 与 ALL 语义颠倒",
+    "把 ALL 当成「等于所有」"
+   ]
+  },
+  {
+   "id": "E21",
+   "name": "EXISTS嵌套查询",
+   "chapter": "SQL 课件",
+   "attributes": {
+    "keyword": [
+     "EXISTS",
+     "NOT EXISTS"
+    ],
+    "feature": "子查询不返回数据，只返回布尔真假；子查询通常写SELECT *；典型相关子查询，可实现全称量词逻辑",
+    "correlation_requirement": "子查询的 WHERE 必须引用外层表的列，否则退化为常量真假"
+   },
+   "misconceptions": [
+    "子查询未关联外层表",
+    "把 EXISTS 当成返回结果集",
+    "用 NOT EXISTS 表达「不等于」"
+   ]
+  },
+  {
+   "id": "E22",
+   "name": "SQL在线实验环境",
+   "chapter": "SQL 课件",
+   "attributes": {
+    "description": "课程配套 SQL 在线运行环境（W3Schools TrySQL 同款数据集），用于课外自由练习",
+    "practice_tables": [
+     "OrderDetails",
+     "Orders",
+     "Products"
+    ],
+    "operation_steps": [
+     "打开网页",
+     "编辑区编写SQL语句",
+     "点击Run SQL执行",
+     "查看Result结果，处理Message错误提示"
+    ],
+    "note": "平台内已内置同结构数据集与执行引擎，优先使用平台内实验二"
+   },
+   "misconceptions": [
+    "在平台外练习时用错表名",
+    "忽略 Message 里的报错位置"
+   ]
+  },
+  {
+   "id": "E23",
+   "name": "MIS线上实验平台",
+   "chapter": "配套资源",
+   "attributes": {
+    "url": "https://mis-lab-assistant.app.workbuddy.host/",
+    "description": "网页版管理信息系统实验平台，浏览器直接访问；未登录进度存 localStorage，登录后云端同步",
+    "total_practice_points": 39,
+    "experiment_list": [
+     {
+      "exp_id": "exp1",
+      "name": "实验一：制作数据流图",
+      "practice_point_count": 11,
+      "related_knowledge": [
+       "E07"
+      ],
+      "module": [
+       "概念小测5题",
+       "DFD画图工作台2题",
+       "找错练习4题"
+      ],
+      "support_image_recognize": true
+     },
+     {
+      "exp_id": "exp2",
+      "name": "实验二：学习SQL语句",
+      "practice_point_count": 17,
+      "related_knowledge": [
+       "E16",
+       "E17",
+       "E18",
+       "E19",
+       "E20",
+       "E21"
+      ],
+      "module": [
+       "基础查询5题",
+       "条件筛选3题",
+       "排序聚合3题",
+       "嵌套查询4题",
+       "增删改3题"
+      ],
+      "support_image_recognize": false
+     },
+     {
+      "exp_id": "exp3",
+      "name": "实验三：分析业务流程",
+      "practice_point_count": 11,
+      "related_knowledge": [
+       "E04"
+      ],
+      "module": [
+       "图元配对5题",
+       "步骤排序2题",
+       "单据填空4题"
+      ],
+      "support_image_recognize": true
+     }
+    ],
+    "student_operation_flow": [
+     "打开平台，可匿名做题，也可登录后云端保存进度",
+     "自主做题，平台按规则自动判分并给出错因提示",
+     "遇到不会的题，点击页面「问 AI 助教」或在平台外联系智能体",
+     "画图类题目可截图提交识图批改",
+     "在「学习报告」页汇总完成度与得分，生成学情报告"
+    ],
+    "image_recognize_constraint": "图片仅作辅助证据，必须优先解析平台复制的文本上下文，不可仅凭截图推断题目需求"
+   },
+   "misconceptions": [
+    "以为不登录就丢进度（同一浏览器仍在）",
+    "换设备后期望进度自动出现（需登录）"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "head": "E05",
+   "relation": "包含阶段",
+   "tail": "E06"
+  },
+  {
+   "head": "E05",
+   "relation": "包含阶段",
+   "tail": "E09"
+  },
+  {
+   "head": "E05",
+   "relation": "包含阶段",
+   "tail": "E11"
+  },
+  {
+   "head": "E05",
+   "relation": "包含阶段",
+   "tail": "E13"
+  },
+  {
+   "head": "E05",
+   "relation": "包含阶段",
+   "tail": "E14"
+  },
+  {
+   "head": "E05",
+   "relation": "包含阶段",
+   "tail": "E15"
+  },
+  {
+   "head": "E06",
+   "relation": "产出",
+   "tail": "E07"
+  },
+  {
+   "head": "E06",
+   "relation": "产出",
+   "tail": "E08"
+  },
+  {
+   "head": "E07",
+   "relation": "配套知识",
+   "tail": "E08"
+  },
+  {
+   "head": "E09",
+   "relation": "产出",
+   "tail": "E10"
+  },
+  {
+   "head": "E10",
+   "relation": "转换流向",
+   "tail": "E11"
+  },
+  {
+   "head": "E11",
+   "relation": "优化对象",
+   "tail": "E12"
+  },
+  {
+   "head": "E01",
+   "relation": "包含模型",
+   "tail": "E02"
+  },
+  {
+   "head": "E01",
+   "relation": "包含方法集合",
+   "tail": "E03"
+  },
+  {
+   "head": "E01",
+   "relation": "产出产物",
+   "tail": "E04"
+  },
+  {
+   "head": "E17",
+   "relation": "子类型",
+   "tail": "E18"
+  },
+  {
+   "head": "E17",
+   "relation": "子类型",
+   "tail": "E19"
+  },
+  {
+   "head": "E17",
+   "relation": "子类型",
+   "tail": "E20"
+  },
+  {
+   "head": "E17",
+   "relation": "子类型",
+   "tail": "E21"
+  },
+  {
+   "head": "E16",
+   "relation": "实验运行环境",
+   "tail": "E22"
+  },
+  {
+   "head": "E17",
+   "relation": "实验运行环境",
+   "tail": "E22"
+  },
+  {
+   "head": "E23",
+   "relation": "承载实验一",
+   "tail": "E07"
+  },
+  {
+   "head": "E23",
+   "relation": "承载实验二",
+   "tail": "E16"
+  },
+  {
+   "head": "E23",
+   "relation": "承载实验二",
+   "tail": "E17"
+  },
+  {
+   "head": "E23",
+   "relation": "承载实验三",
+   "tail": "E04"
+  },
+  {
+   "head": "E04",
+   "relation": "区别于",
+   "tail": "E07"
+  }
+ ],
+ "items": [
+  {
+   "id": "dfd.quiz.0",
+   "lab": "dfd",
+   "type": "choice",
+   "title": "数据流图中表示「处理」的符号",
+   "entity": [
+    "E07"
+   ],
+   "error_tags": [
+    "DF-08"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "dfd.quiz.1",
+   "lab": "dfd",
+   "type": "choice",
+   "title": "顶层数据流图里有几个处理",
+   "entity": [
+    "E07"
+   ],
+   "error_tags": [
+    "DF-08"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "dfd.quiz.2",
+   "lab": "dfd",
+   "type": "choice",
+   "title": "哪种画法一定违反 DFD 规则",
+   "entity": [
+    "E07"
+   ],
+   "error_tags": [
+    "DF-04",
+    "DF-01"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "dfd.quiz.3",
+   "lab": "dfd",
+   "type": "choice",
+   "title": "数据存储只写不读的问题",
+   "entity": [
+    "E07"
+   ],
+   "error_tags": [
+    "DF-06"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "dfd.quiz.4",
+   "lab": "dfd",
+   "type": "choice",
+   "title": "父子平衡的含义",
+   "entity": [
+    "E07"
+   ],
+   "error_tags": [
+    "DF-05"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "dfd.draw.lib",
+   "lab": "dfd",
+   "type": "draw",
+   "title": "画图书馆借书业务的 0 层数据流图",
+   "entity": [
+    "E07",
+    "E06"
+   ],
+   "error_tags": [
+    "DF-01",
+    "DF-02",
+    "DF-03",
+    "DF-04",
+    "DF-06",
+    "DF-07"
+   ],
+   "difficulty": 4
+  },
+  {
+   "id": "dfd.draw.course",
+   "lab": "dfd",
+   "type": "draw",
+   "title": "画学生选课业务的 0 层数据流图",
+   "entity": [
+    "E07",
+    "E06"
+   ],
+   "error_tags": [
+    "DF-01",
+    "DF-02",
+    "DF-03",
+    "DF-04",
+    "DF-06",
+    "DF-07"
+   ],
+   "difficulty": 4
+  },
+  {
+   "id": "dfd.find.f1",
+   "lab": "dfd",
+   "type": "choice",
+   "title": "找错①：读者与管理员直接连线",
+   "entity": [
+    "E07"
+   ],
+   "error_tags": [
+    "DF-04"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "dfd.find.f2",
+   "lab": "dfd",
+   "type": "choice",
+   "title": "找错②：处理与存储在一条线上画双向箭头",
+   "entity": [
+    "E07"
+   ],
+   "error_tags": [
+    "DF-01"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "dfd.find.f3",
+   "lab": "dfd",
+   "type": "choice",
+   "title": "找错③：还书处理只有输出没有输入",
+   "entity": [
+    "E07"
+   ],
+   "error_tags": [
+    "DF-02"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "dfd.find.f4",
+   "lab": "dfd",
+   "type": "choice",
+   "title": "找错④：图书表只有流入没有流出",
+   "entity": [
+    "E07"
+   ],
+   "error_tags": [
+    "DF-06"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "sql.q1",
+   "lab": "sql",
+   "type": "query",
+   "title": "查询所有客户的全部信息",
+   "entity": [
+    "E16"
+   ],
+   "error_tags": [
+    "SQ-06"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "sql.q2",
+   "lab": "sql",
+   "type": "query",
+   "title": "只查客户姓名和国家（投影）",
+   "entity": [
+    "E16"
+   ],
+   "error_tags": [
+    "SQ-06"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "sql.q3",
+   "lab": "sql",
+   "type": "query",
+   "title": "查询所有不重复的国家（DISTINCT）",
+   "entity": [
+    "E16"
+   ],
+   "error_tags": [
+    "SQ-05"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "sql.q4",
+   "lab": "sql",
+   "type": "query",
+   "title": "查 CustomerID 在 10~15 之间的客户（BETWEEN）",
+   "entity": [
+    "E16"
+   ],
+   "error_tags": [
+    "SQ-06"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "sql.q5",
+   "lab": "sql",
+   "type": "query",
+   "title": "查询国家为 Germany 的客户（字符串条件）",
+   "entity": [
+    "E16"
+   ],
+   "error_tags": [
+    "SQ-01"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "sql.q6",
+   "lab": "sql",
+   "type": "query",
+   "title": "查询姓名以 A 开头的客户（LIKE）",
+   "entity": [
+    "E16"
+   ],
+   "error_tags": [
+    "SQ-01"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "sql.q7",
+   "lab": "sql",
+   "type": "query",
+   "title": "查 ID 50~55 的客户姓名和国家",
+   "entity": [
+    "E16"
+   ],
+   "error_tags": [
+    "SQ-06"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "sql.q8",
+   "lab": "sql",
+   "type": "query",
+   "title": "按 CustomerID 降序排列所有客户",
+   "entity": [
+    "E16"
+   ],
+   "error_tags": [
+    "SQ-07"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "sql.q9",
+   "lab": "sql",
+   "type": "query",
+   "title": "统计客户总数（COUNT）",
+   "entity": [
+    "E16"
+   ],
+   "error_tags": [
+    "SQ-02"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "sql.q10",
+   "lab": "sql",
+   "type": "query",
+   "title": "求产品的最高价和最低价（MAX/MIN）",
+   "entity": [
+    "E16"
+   ],
+   "error_tags": [
+    "SQ-02"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "sql.q11",
+   "lab": "sql",
+   "type": "query",
+   "title": "查单价低于 Aniseed Syrup 的所有产品（比较运算符子查询）",
+   "entity": [
+    "E19",
+    "E17"
+   ],
+   "error_tags": [
+    "SQ-03"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "sql.q12",
+   "lab": "sql",
+   "type": "query",
+   "title": "查 OrderID 10248 里有哪些产品（IN 子查询）",
+   "entity": [
+    "E18",
+    "E17"
+   ],
+   "error_tags": [
+    "SQ-03"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "sql.q13",
+   "lab": "sql",
+   "type": "query",
+   "title": "查单价高于类别 3 全部产品的产品（ALL）",
+   "entity": [
+    "E20",
+    "E17"
+   ],
+   "error_tags": [
+    "SQ-03"
+   ],
+   "difficulty": 4
+  },
+  {
+   "id": "sql.q14",
+   "lab": "sql",
+   "type": "query",
+   "title": "查存在订购数量 20 的产品（EXISTS）",
+   "entity": [
+    "E21",
+    "E17"
+   ],
+   "error_tags": [
+    "SQ-04"
+   ],
+   "difficulty": 4
+  },
+  {
+   "id": "sql.q15",
+   "lab": "sql",
+   "type": "query",
+   "title": "新增一个客户 CustomerID=92（INSERT）",
+   "entity": [
+    "E16"
+   ],
+   "error_tags": [
+    "SQ-06"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "sql.q16",
+   "lab": "sql",
+   "type": "query",
+   "title": "把 92 号客户改到 USA / Los Angeles（UPDATE）",
+   "entity": [
+    "E16"
+   ],
+   "error_tags": [
+    "SQ-08"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "sql.q17",
+   "lab": "sql",
+   "type": "query",
+   "title": "删除 92 号客户（DELETE）",
+   "entity": [
+    "E16"
+   ],
+   "error_tags": [
+    "SQ-08"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "bpm.sym.unit",
+   "lab": "bpm",
+   "type": "match",
+   "title": "图元配对：业务处理单位",
+   "entity": [
+    "E04"
+   ],
+   "error_tags": [
+    "BP-06"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "bpm.sym.proc",
+   "lab": "bpm",
+   "type": "match",
+   "title": "图元配对：业务处理（功能）",
+   "entity": [
+    "E04"
+   ],
+   "error_tags": [
+    "BP-06"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "bpm.sym.doc",
+   "lab": "bpm",
+   "type": "match",
+   "title": "图元配对：单据 / 报表",
+   "entity": [
+    "E04"
+   ],
+   "error_tags": [
+    "BP-05"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "bpm.sym.store",
+   "lab": "bpm",
+   "type": "match",
+   "title": "图元配对：数据存储",
+   "entity": [
+    "E04"
+   ],
+   "error_tags": [
+    "BP-02"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "bpm.sym.ext",
+   "lab": "bpm",
+   "type": "match",
+   "title": "图元配对：外部实体",
+   "entity": [
+    "E04"
+   ],
+   "error_tags": [
+    "BP-01"
+   ],
+   "difficulty": 1
+  },
+  {
+   "id": "bpm.sort.borrow",
+   "lab": "bpm",
+   "type": "sort",
+   "title": "排序：图书馆借书的业务步骤",
+   "entity": [
+    "E04"
+   ],
+   "error_tags": [
+    "BP-06",
+    "BP-05"
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "bpm.sort.leave",
+   "lab": "bpm",
+   "type": "sort",
+   "title": "排序：学生请假（含审批回流）的步骤",
+   "entity": [
+    "E04"
+   ],
+   "error_tags": [
+    "BP-04"
+   ],
+   "difficulty": 4
+  },
+  {
+   "id": "bpm.blank.b1",
+   "lab": "bpm",
+   "type": "blank",
+   "title": "填空：学生应画成什么图元",
+   "entity": [
+    "E04"
+   ],
+   "error_tags": [
+    "BP-01"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "bpm.blank.b2",
+   "lab": "bpm",
+   "type": "blank",
+   "title": "填空：图书库应画成什么图元",
+   "entity": [
+    "E04"
+   ],
+   "error_tags": [
+    "BP-02"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "bpm.blank.b3",
+   "lab": "bpm",
+   "type": "blank",
+   "title": "填空：借书业务留下的单据",
+   "entity": [
+    "E04"
+   ],
+   "error_tags": [
+    "BP-05"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "bpm.blank.b4",
+   "lab": "bpm",
+   "type": "blank",
+   "title": "填空：表示「一个具体动作」的图元",
+   "entity": [
+    "E04"
+   ],
+   "error_tags": [
+    "BP-06"
+   ],
+   "difficulty": 2
+  },
+  {
+   "id": "bpm.draw",
+   "lab": "bpm",
+   "type": "draw",
+   "title": "自己画一张业务流程图（图书借阅 / 学生请假 / 自由情景，自检 ≥70 分通过）",
+   "entity": [
+    "E04"
+   ],
+   "error_tags": [
+    "BP-02",
+    "BP-03",
+    "BP-04"
+   ],
+   "difficulty": 3
+  }
+ ],
+ "error_patterns": [
+  {
+   "code": "DF-01",
+   "name": "双向数据流",
+   "symptom": "两个图元之间只有一条线，两端都有箭头",
+   "diagnose": "学生想表达「既写又读」，但用一条双向线偷懒",
+   "fix": "拆成两条相反方向的单向流，各自命名",
+   "entity": "E07",
+   "items": [
+    "dfd.find.f2",
+    "dfd.quiz.2",
+    "dfd.draw.lib"
+   ],
+   "say": "数据流是单向的。既要写又要读，就画两条相反的单向箭头。"
+  },
+  {
+   "code": "DF-02",
+   "name": "处理有输出无输入",
+   "symptom": "某个处理只有指向外的箭头",
+   "diagnose": "数据来源没想清楚，或漏画了上游",
+   "fix": "补一条输入数据流，并说明它从哪个实体/存储来",
+   "entity": "E07",
+   "items": [
+    "dfd.find.f3",
+    "dfd.draw.lib"
+   ],
+   "say": "这条数据从哪来？每个处理都必须有输入。"
+  },
+  {
+   "code": "DF-03",
+   "name": "处理有输入无输出",
+   "symptom": "某个处理只有指进来的箭头",
+   "diagnose": "加工结果没有去向，业务闭环断了",
+   "fix": "补输出流：写存储、返回实体或传给下一个处理",
+   "entity": "E07",
+   "items": [
+    "dfd.draw.lib",
+    "dfd.draw.course"
+   ],
+   "say": "加工完的结果去哪了？处理不能只吃不吐。"
+  },
+  {
+   "code": "DF-04",
+   "name": "外部实体直接连线",
+   "symptom": "两个方框之间直接有一条数据流",
+   "diagnose": "把「人和人沟通」误当成系统内数据流",
+   "fix": "删掉直连线，让双方各自连到内部处理",
+   "entity": "E07",
+   "items": [
+    "dfd.find.f1",
+    "dfd.quiz.2",
+    "dfd.draw.course"
+   ],
+   "say": "两个外部实体之间不能直接交换数据，必须经过系统内部的处理。"
+  },
+  {
+   "code": "DF-05",
+   "name": "父子图不平衡",
+   "symptom": "子图的输入输出与父图中对应处理不一致",
+   "diagnose": "细化时凭空增加或丢失了数据流",
+   "fix": "以父图为合同：输入几条、输出几条，子图边界必须一致",
+   "entity": "E07",
+   "items": [
+    "dfd.quiz.4"
+   ],
+   "say": "父图里这个处理的输入输出是两条，子图里必须还是这两条，不多不少。"
+  },
+  {
+   "code": "DF-06",
+   "name": "数据存储只进不出/只出不进",
+   "symptom": "存储只有一个方向的箭头",
+   "diagnose": "把存储当成终点，或漏画读取的数据流",
+   "fix": "写进去是为了以后读出来，补上另一方向",
+   "entity": "E07",
+   "items": [
+    "dfd.find.f4",
+    "dfd.quiz.3",
+    "dfd.draw.lib"
+   ],
+   "say": "存储写进去是为了以后读出来。只进不出，这个存储就是死数据。"
+  },
+  {
+   "code": "DF-07",
+   "name": "数据流未命名",
+   "symptom": "连线存在但没有业务名称",
+   "diagnose": "只画结构没想数据内容",
+   "fix": "按命名规律补：申请/记录/数据/报表",
+   "entity": "E07",
+   "items": [
+    "dfd.draw.lib",
+    "dfd.draw.course"
+   ],
+   "say": "这条线上搬的是什么？写清楚，动词+名词。"
+  },
+  {
+   "code": "DF-08",
+   "name": "图元符号混用",
+   "symptom": "用圆表示实体，或把存储画成圆",
+   "diagnose": "记不清四类符号",
+   "fix": "回到口诀：方框人、圆干活、开口矩形存东西、箭头流动",
+   "entity": "E07",
+   "items": [
+    "dfd.quiz.0",
+    "dfd.quiz.1"
+   ],
+   "say": "方框是人、圆是干活、开口矩形是存东西。"
+  },
+  {
+   "code": "SQ-01",
+   "name": "字符串缺英文单引号",
+   "symptom": "WHERE Country = Germany 报「列名无效」",
+   "diagnose": "把字符串当列名",
+   "fix": "字符串值用英文单引号包住",
+   "entity": "E16",
+   "items": [
+    "sql.q5",
+    "sql.q6"
+   ],
+   "say": "Germany 是字符串，SQL 里字符串要用英文单引号包起来。"
+  },
+  {
+   "code": "SQ-02",
+   "name": "聚合函数写进 WHERE",
+   "symptom": "WHERE COUNT(*) > 5 报错",
+   "diagnose": "没分清筛行与筛组",
+   "fix": "聚合条件放 HAVING，WHERE 只筛行",
+   "entity": "E16",
+   "items": [
+    "sql.q9",
+    "sql.q10"
+   ],
+   "say": "WHERE 是逐行筛选，聚合结果要用 HAVING。先想清楚你要筛行还是筛组。"
+  },
+  {
+   "code": "SQ-03",
+   "name": "多行子查询用单值比较符",
+   "symptom": "返回的行数与预期不符，或报「子查询返回多行」",
+   "diagnose": "不知道子查询返回的是集合还是单值",
+   "fix": "先单独跑子查询看行数：多行改 IN / =ANY，单值才用 >、=",
+   "entity": "E18",
+   "items": [
+    "sql.q11",
+    "sql.q12",
+    "sql.q13"
+   ],
+   "say": "子查询返回的是一列多行，等号只能比一个值。改用 IN，或者 = ANY。"
+  },
+  {
+   "code": "SQ-04",
+   "name": "EXISTS 子查询未关联外层",
+   "symptom": "结果要么全有要么全无",
+   "diagnose": "子查询里没引用外层表的列，退化成常量真假",
+   "fix": "在子查询 WHERE 里加 P.ProductID = OD.ProductID 这类关联条件",
+   "entity": "E21",
+   "items": [
+    "sql.q14"
+   ],
+   "say": "EXISTS 的子查询里没有引用外层的表，它就成了独立查询，永远同一个真假。"
+  },
+  {
+   "code": "SQ-05",
+   "name": "DISTINCT 位置或作用域错误",
+   "symptom": "去重没生效，或多列时结果仍重复",
+   "diagnose": "把 DISTINCT 当列函数用",
+   "fix": "DISTINCT 紧跟 SELECT，作用于整行",
+   "entity": "E16",
+   "items": [
+    "sql.q3"
+   ],
+   "say": "DISTINCT 紧跟在 SELECT 后面，作用于整行，不是某一列。"
+  },
+  {
+   "code": "SQ-06",
+   "name": "表名或列名拼写错误",
+   "symptom": "报 no such table / no such column",
+   "diagnose": "大小写或拼写与数据集不一致",
+   "fix": "对照平台「数据」面板的表结构逐字核对",
+   "entity": "E16",
+   "items": [
+    "sql.q1",
+    "sql.q2",
+    "sql.q4",
+    "sql.q7"
+   ],
+   "say": "表名或列名拼错了，我告诉你第几个字符不对，你来改。"
+  },
+  {
+   "code": "SQ-07",
+   "name": "排序字段或方向错误",
+   "symptom": "行数对但顺序不对",
+   "diagnose": "没注意 ASC/DESC 或排错字段",
+   "fix": "确认 ORDER BY 的字段与升降序",
+   "entity": "E16",
+   "items": [
+    "sql.q8"
+   ],
+   "say": "你按哪个字段排的？题目要的是升序还是降序？"
+  },
+  {
+   "code": "SQ-08",
+   "name": "UPDATE/DELETE 漏 WHERE",
+   "symptom": "影响行数远大于预期",
+   "diagnose": "忘了限定条件",
+   "fix": "先 SELECT 验证条件命中几行，再改成 UPDATE/DELETE",
+   "entity": "E16",
+   "items": [
+    "sql.q16",
+    "sql.q17"
+   ],
+   "say": "先想后果——没有 WHERE，整张表都会被改掉。"
+  },
+  {
+   "code": "BP-01",
+   "name": "外部实体画成方框",
+   "symptom": "学生、客户被画进方框",
+   "diagnose": "把 DFD 的符号规则搬到业务流程图上",
+   "fix": "外部实体用椭圆；方框只给科室/岗位",
+   "entity": "E04",
+   "items": [
+    "bpm.blank.b1",
+    "bpm.sym.ext"
+   ],
+   "say": "学生不属于任何单位，用椭圆。方框是「谁在干活」的科室岗位。"
+  },
+  {
+   "code": "BP-02",
+   "name": "数据存储画成方框",
+   "symptom": "图书库、台账被画成矩形",
+   "diagnose": "分不清「存东西」和「谁在干活」",
+   "fix": "被保存的台账/文件用圆柱",
+   "entity": "E04",
+   "items": [
+    "bpm.blank.b2",
+    "bpm.sym.store"
+   ],
+   "say": "图书库是「被存起来的东西」，用圆柱。"
+  },
+  {
+   "code": "BP-03",
+   "name": "箭头未标注传递内容",
+   "symptom": "连线没有单据名或信息名",
+   "diagnose": "只画流程不画凭证",
+   "fix": "每条箭头写明传的是哪张单/哪条信息",
+   "entity": "E04",
+   "items": [
+    "bpm.sort.borrow"
+   ],
+   "say": "这条线传的是单据还是口头的申请？写出来。"
+  },
+  {
+   "code": "BP-04",
+   "name": "审批缺「不通过」回流",
+   "symptom": "审核环节只有通过分支",
+   "diagnose": "把流程当成理想路径",
+   "fix": "补一条退回箭头，并写明退回原因",
+   "entity": "E04",
+   "items": [
+    "bpm.sort.leave"
+   ],
+   "say": "审核不通过怎么办？流程必须走得通，不能只画通过的分支。"
+  },
+  {
+   "code": "BP-05",
+   "name": "漏单据或单据错位",
+   "symptom": "业务做完了却没有凭证",
+   "diagnose": "没抓住「业务处理产生单据」这条线",
+   "fix": "每完成一个业务动作，问一句：留下什么单？",
+   "entity": "E04",
+   "items": [
+    "bpm.blank.b3",
+    "bpm.sym.doc"
+   ],
+   "say": "这笔业务办完留下什么凭证？"
+  },
+  {
+   "code": "BP-06",
+   "name": "单位与处理混淆",
+   "symptom": "方框里写的是动作（如「审核」）",
+   "diagnose": "把「谁做」和「做什么」画在一起",
+   "fix": "方框写岗位，圆角矩形写动作",
+   "entity": "E04",
+   "items": [
+    "bpm.blank.b4",
+    "bpm.sym.unit",
+    "bpm.sym.proc"
+   ],
+   "say": "方框回答「谁做」，圆角矩形回答「做什么」，别把动作画进方框。"
+  }
+ ],
+ "rubrics": {
+  "dfd": {
+   "total": 100,
+   "dimensions": [
+    {
+     "name": "要素齐备",
+     "weight": 40,
+     "rule": "四类要素（外部实体、处理、数据存储、数据流）至少各一个，处理与存储要有编号"
+    },
+    {
+     "name": "处理有进有出",
+     "weight": 20,
+     "rule": "每个处理至少一条输入流、一条输出流"
+    },
+    {
+     "name": "存储既写又读",
+     "weight": 15,
+     "rule": "每个数据存储至少一条流入、一条流出"
+    },
+    {
+     "name": "无实体直连",
+     "weight": 10,
+     "rule": "任意两个外部实体之间不得有直接连线"
+    },
+    {
+     "name": "数据流命名",
+     "weight": 15,
+     "rule": "每条数据流有业务含义的名称，且方向语义正确"
+    }
+   ],
+   "note": "图形位置、配色、字号不参与评分；同义命名算正确，命名逻辑错位才扣分"
+  },
+  "sql": {
+   "rule": "结果集比对：列数与列序一致、行数一致、值集合一致即判对",
+   "note": "任何等价写法（子查询 / JOIN / ANY 改写）都算对，只看结果"
+  },
+  "bpm": {
+   "rule": "图元配对按符号语义判分；排序题按步骤先后判分；填空题按同义词表接受",
+   "note": "重点看「不通过回流」与单据是否齐全"
+  }
+ },
+ "context_protocol": {
+  "version": "MIS-LAB-CONTEXT v1",
+  "template": "[MIS-LAB-CONTEXT v1]\nlab: {dfd|sql|bpm} | item: {item_id} | progress: {done}/{total}\ntitle: {题目标题}\nattempt: {学生的原始作答或 SQL}\nresult: {正确|错误} | {平台判分反馈}\ntags: {知识点标签}\n[/MIS-LAB-CONTEXT]",
+  "fields": {
+   "lab": "所属实验，对应 entities 中 E23 的 experiment_list",
+   "item": "题目 ID，可直接在 items 中检索到 entity 与 error_tags",
+   "progress": "该实验完成度",
+   "attempt": "学生原话，只评价不改写",
+   "result": "平台机械判分的结论，作为诊断起点",
+   "tags": "平台侧标签，可用于交叉验证"
+  },
+  "rule": "收到此块时跳过「你在做哪道题」的追问，直接进入诊断"
+ },
+ "grading": {
+  "dfd": {
+   "symbols": {
+    "外部实体": "方框",
+    "处理": "圆（编号 1.0 / 2.0）",
+    "数据存储": "开口矩形（编号 D1 / D2）",
+    "数据流": "带箭头的线，必须命名"
+   },
+   "layers": "顶层图（整体一个处理）→ 0 层图（主要处理）→ 1 层子图；父子必须平衡",
+   "naming": {
+    "外部实体→处理": "××申请 / 请求 / 单",
+    "处理→存储": "××记录 / 信息",
+    "存储→处理": "××数据",
+    "处理→外部实体": "××报表 / 结果",
+    "note": "同义命名算对，逻辑错位才扣分；图形位置、配色、字号不评分"
+   },
+   "check_order": [
+    "要素齐备",
+    "处理有进有出",
+    "存储既写又读",
+    "无实体直连",
+    "命名与方向语义"
+   ],
+   "no_answer": "只指出「你还差哪一类要素」，不输出完整参考图"
+  },
+  "sql": {
+   "check_order": [
+    "语法（表名 / 列名 / 引号）",
+    "筛选条件",
+    "投影列",
+    "排序与去重"
+   ],
+   "tactic": "让学生先单独运行子查询，确认它返回什么，再嵌回父查询",
+   "feedback": "给可验证的数字（你返回 3 行，预期 5 行），不给完整可运行 SQL",
+   "tables": "Customers / Products / Orders / OrderDetails，字段与 W3Schools TrySQL 一致"
+  },
+  "bpm": {
+   "symbols": {
+    "业务处理单位": "方框",
+    "业务处理": "圆角矩形",
+    "单据/报表": "折角矩形",
+    "数据存储": "圆柱",
+    "外部实体": "椭圆"
+   },
+   "abstract_steps": [
+    "谁（角色 / 单位）",
+    "做了什么（动词短语）",
+    "产生 / 传递什么单据"
+   ],
+   "conflict": "业务流程图外部实体用椭圆，DFD 用方框，两套符号不能混用",
+   "rubric": "要素齐备 40 / 有进有出 20 / 起止在外部实体 10 / 箭头命名 15 / 命名规范 15，≥70 通过"
+  }
+ },
+ "report": {
+  "learning_report_example": "[MIS-LEARNING-REPORT v1]\nstudent: 张三\ngenerated: 2026-10-18 17:18\ndfd: 5/11 | wrong: dfd.quiz.2, dfd.draw.course, dfd.find.f2 | pending: dfd.quiz.3, dfd.find.f3\ndraw_scores: lib=82, course=55\nsql: 12/17 | pending: sql.q13, sql.q14, sql.q15, sql.q16, sql.q17\nbpm: 10/12 | wrong: bpm.sort.leave\ntotal: 27/40\n[/MIS-LEARNING-REPORT]",
+  "parse": {
+   "wrong": "做错过的题，优先诊断",
+   "pending": "还没做对的题，挑 1-2 个作练习建议",
+   "draw_scores": "画图自检得分，<70 视为未通过",
+   "same_tag": "wrong 里有两道以上同 error_tags 的题 → 同一概念没打通，按概念讲，不逐题讲"
+  },
+  "output_structure": [
+   "✅ 已掌握：2-4 条，每条注明实体 ID",
+   "⚠️ 待加强：1-3 条，每条写「现象 + 错因码 + 实体 ID」",
+   "📖 下一步：2-3 个可执行动作，优先指向具体题号",
+   "总评：≤40 字，不空泛表扬"
+  ],
+  "teacher": "班级批量时按「共性薄弱点 → 涉及人数/占比 → 建议课堂讲法」组织，不逐个学生罗列"
+ },
+ "log_schema": {
+  "table": "mistake_log（错题登记表）",
+  "fields": [
+   {
+    "name": "student_id",
+    "desc": "学号，如 2023010234",
+    "required": true,
+    "unique": false
+   },
+   {
+    "name": "exercise_id",
+    "desc": "平台题号，如 sql.q13",
+    "required": true,
+    "unique": false
+   },
+   {
+    "name": "error_code",
+    "desc": "错因码 DF-/SQ-/BP-；核对通过写 PASS",
+    "required": true,
+    "unique": false
+   },
+   {
+    "name": "note",
+    "desc": "一句话备注",
+    "required": false,
+    "unique": false
+   },
+   {
+    "name": "recorded_at",
+    "desc": "记录时间 YYYY-MM-DD HH:MM",
+    "required": true,
+    "unique": false
+   },
+   {
+    "name": "class_id",
+    "desc": "班级，如 信管2301",
+    "required": false,
+    "unique": false
+   }
+  ]
+ }
+}
