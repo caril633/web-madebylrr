@@ -1,0 +1,7506 @@
+[
+ {
+  "student_id": "2305144001",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:01",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 14:01",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 14:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 14:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-07",
+  "note": "数据流未命名",
+  "recorded_at": "2026-10-14 14:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 14:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-07",
+  "note": "数据流未命名",
+  "recorded_at": "2026-10-14 14:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 14:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-07",
+  "note": "数据流未命名",
+  "recorded_at": "2026-10-14 14:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 14:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 14:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 14:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:11",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 14:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "DF-07",
+  "note": "数据流未命名",
+  "recorded_at": "2026-10-14 14:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 14:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 14:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-03",
+  "note": "处理有输入无输出",
+  "recorded_at": "2026-10-14 14:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 14:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 14:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 14:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 14:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 14:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 14:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 14:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:29",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "DF-07",
+  "note": "数据流未命名",
+  "recorded_at": "2026-10-14 14:29",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 14:30",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 14:30",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:31",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-07",
+  "note": "数据流未命名",
+  "recorded_at": "2026-10-14 14:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "DF-07",
+  "note": "数据流未命名",
+  "recorded_at": "2026-10-14 14:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:33",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:33",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:33",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:33",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:33",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:33",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 14:34",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 14:34",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:35",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:35",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:35",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:35",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:36",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:37",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:37",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 14:37",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 14:37",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:37",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:37",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:38",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:38",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:39",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:40",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:40",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:40",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:41",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:41",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:42",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 14:42",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:42",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:43",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 14:43",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 14:44",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:44",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:44",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:45",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:46",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:46",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:46",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:46",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:46",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 14:46",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:46",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 14:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 14:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 14:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-03",
+  "note": "处理有输入无输出",
+  "recorded_at": "2026-10-14 14:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 14:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:48",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 14:48",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:48",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:48",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:48",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:49",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:49",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:50",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 14:51",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:51",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:51",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:51",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:52",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:52",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:52",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:52",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:53",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:53",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:54",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:54",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-07",
+  "note": "数据流未命名",
+  "recorded_at": "2026-10-14 14:55",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 14:55",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:55",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 14:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "DF-07",
+  "note": "数据流未命名",
+  "recorded_at": "2026-10-14 14:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 14:59",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:59",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 14:59",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 14:59",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "DF-08",
+  "note": "图元符号混用",
+  "recorded_at": "2026-10-14 14:59",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 14:59",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 15:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 15:01",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:01",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 15:01",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 15:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 15:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 15:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 15:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 15:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 15:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 15:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 15:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 15:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:11",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "DF-03",
+  "note": "处理有输入无输出",
+  "recorded_at": "2026-10-14 15:11",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:11",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 15:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "DF-08",
+  "note": "图元符号混用",
+  "recorded_at": "2026-10-14 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "dfd.find.f2",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-03",
+  "note": "处理有输入无输出",
+  "recorded_at": "2026-10-14 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "DF-08",
+  "note": "图元符号混用",
+  "recorded_at": "2026-10-14 15:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "DF-05",
+  "note": "父子图不平衡",
+  "recorded_at": "2026-10-14 15:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 15:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "DF-04",
+  "note": "外部实体直接连线",
+  "recorded_at": "2026-10-14 15:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "dfd.quiz.3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "DF-08",
+  "note": "图元符号混用",
+  "recorded_at": "2026-10-14 15:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "DF-08",
+  "note": "图元符号混用",
+  "recorded_at": "2026-10-14 15:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 15:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "dfd.draw.lib",
+  "error_code": "DF-06",
+  "note": "数据存储只进不出/只出不进",
+  "recorded_at": "2026-10-14 15:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "DF-08",
+  "note": "图元符号混用",
+  "recorded_at": "2026-10-14 15:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-07",
+  "note": "数据流未命名",
+  "recorded_at": "2026-10-14 15:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "dfd.quiz.0",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "DF-02",
+  "note": "处理有输出无输入",
+  "recorded_at": "2026-10-14 15:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "dfd.quiz.2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "dfd.find.f1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "dfd.find.f3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "dfd.find.f4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "dfd.quiz.4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "dfd.quiz.1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-14 15:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "dfd.draw.course",
+  "error_code": "DF-01",
+  "note": "双向数据流",
+  "recorded_at": "2026-10-14 15:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "sql.q14",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "sql.q9",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 14:01",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q3",
+  "error_code": "SQ-05",
+  "note": "DISTINCT 位置或作用域错误",
+  "recorded_at": "2026-10-16 14:01",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:01",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "sql.q14",
+  "error_code": "SQ-04",
+  "note": "EXISTS 子查询未关联外层",
+  "recorded_at": "2026-10-16 14:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q13",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q3",
+  "error_code": "SQ-05",
+  "note": "DISTINCT 位置或作用域错误",
+  "recorded_at": "2026-10-16 14:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "sql.q2",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 14:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "sql.q10",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 14:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "sql.q7",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 14:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q15",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q12",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "sql.q12",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "sql.q12",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "sql.q3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q3",
+  "error_code": "SQ-05",
+  "note": "DISTINCT 位置或作用域错误",
+  "recorded_at": "2026-10-16 14:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q14",
+  "error_code": "SQ-04",
+  "note": "EXISTS 子查询未关联外层",
+  "recorded_at": "2026-10-16 14:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "sql.q4",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 14:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q7",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 14:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q15",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q12",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "sql.q9",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 14:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "sql.q9",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "sql.q3",
+  "error_code": "SQ-05",
+  "note": "DISTINCT 位置或作用域错误",
+  "recorded_at": "2026-10-16 14:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "sql.q3",
+  "error_code": "SQ-05",
+  "note": "DISTINCT 位置或作用域错误",
+  "recorded_at": "2026-10-16 14:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "sql.q16",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 14:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "sql.q12",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q13",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "sql.q16",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 14:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "sql.q1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q12",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "sql.q7",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 14:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "sql.q17",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 14:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q13",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q14",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "sql.q15",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q12",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "sql.q13",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q12",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q12",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q15",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q9",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 14:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "sql.q9",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 14:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q9",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q9",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q12",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "sql.q12",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "sql.q15",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 14:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "sql.q9",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q1",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 14:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:29",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:29",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "sql.q9",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 14:29",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "sql.q9",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 14:29",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "sql.q12",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:29",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "sql.q6",
+  "error_code": "SQ-01",
+  "note": "字符串缺英文单引号",
+  "recorded_at": "2026-10-16 14:30",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q13",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:30",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:30",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "sql.q15",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 14:31",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:31",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q14",
+  "error_code": "SQ-04",
+  "note": "EXISTS 子查询未关联外层",
+  "recorded_at": "2026-10-16 14:31",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:31",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "sql.q1",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 14:31",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q4",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 14:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "sql.q9",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "sql.q16",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 14:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "sql.q5",
+  "error_code": "SQ-01",
+  "note": "字符串缺英文单引号",
+  "recorded_at": "2026-10-16 14:33",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "sql.q14",
+  "error_code": "SQ-04",
+  "note": "EXISTS 子查询未关联外层",
+  "recorded_at": "2026-10-16 14:33",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:33",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:33",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:33",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:34",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:34",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "sql.q3",
+  "error_code": "SQ-05",
+  "note": "DISTINCT 位置或作用域错误",
+  "recorded_at": "2026-10-16 14:34",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:34",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "sql.q15",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:34",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:35",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q12",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:35",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "sql.q12",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:35",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:35",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q11",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:35",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "sql.q1",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 14:35",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:36",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:37",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "sql.q3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:37",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:37",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:37",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "sql.q1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:38",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "sql.q16",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 14:39",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:39",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:39",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:40",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:40",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:40",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:40",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:41",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:41",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:41",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:41",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:41",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:42",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:42",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "sql.q15",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:43",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:43",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "sql.q17",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 14:43",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "sql.q9",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 14:44",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "sql.q5",
+  "error_code": "SQ-01",
+  "note": "字符串缺英文单引号",
+  "recorded_at": "2026-10-16 14:44",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "sql.q14",
+  "error_code": "SQ-04",
+  "note": "EXISTS 子查询未关联外层",
+  "recorded_at": "2026-10-16 14:44",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q15",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:45",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "sql.q17",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 14:45",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q14",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:45",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "sql.q15",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:45",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:46",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:46",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "sql.q9",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:46",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "sql.q10",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 14:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:48",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "sql.q14",
+  "error_code": "SQ-04",
+  "note": "EXISTS 子查询未关联外层",
+  "recorded_at": "2026-10-16 14:48",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:48",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "sql.q14",
+  "error_code": "SQ-04",
+  "note": "EXISTS 子查询未关联外层",
+  "recorded_at": "2026-10-16 14:48",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q9",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 14:48",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:48",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:49",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "sql.q12",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:49",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "sql.q7",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 14:49",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:49",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q10",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 14:49",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:49",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:49",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:50",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q14",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:51",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "sql.q1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:51",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:51",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:51",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:51",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:52",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:52",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:52",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q9",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:52",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q9",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:54",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:54",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:54",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:54",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:55",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q11",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:55",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "sql.q8",
+  "error_code": "SQ-07",
+  "note": "排序字段或方向错误",
+  "recorded_at": "2026-10-16 14:55",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q9",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:55",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "sql.q3",
+  "error_code": "SQ-05",
+  "note": "DISTINCT 位置或作用域错误",
+  "recorded_at": "2026-10-16 14:55",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "sql.q15",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 14:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "sql.q10",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 14:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 14:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q10",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 14:57",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:57",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:57",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q15",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "sql.q17",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 14:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "sql.q15",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 14:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "sql.q15",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q9",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 14:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 14:59",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "sql.q16",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 14:59",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "sql.q10",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 15:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "sql.q12",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:01",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "sql.q14",
+  "error_code": "SQ-04",
+  "note": "EXISTS 子查询未关联外层",
+  "recorded_at": "2026-10-16 15:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q17",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 15:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "sql.q6",
+  "error_code": "SQ-01",
+  "note": "字符串缺英文单引号",
+  "recorded_at": "2026-10-16 15:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "sql.q14",
+  "error_code": "SQ-04",
+  "note": "EXISTS 子查询未关联外层",
+  "recorded_at": "2026-10-16 15:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "sql.q12",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "sql.q12",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q14",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "sql.q9",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 15:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q9",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q12",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "sql.q14",
+  "error_code": "SQ-04",
+  "note": "EXISTS 子查询未关联外层",
+  "recorded_at": "2026-10-16 15:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "sql.q9",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "sql.q6",
+  "error_code": "SQ-01",
+  "note": "字符串缺英文单引号",
+  "recorded_at": "2026-10-16 15:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "sql.q12",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "sql.q14",
+  "error_code": "SQ-04",
+  "note": "EXISTS 子查询未关联外层",
+  "recorded_at": "2026-10-16 15:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "sql.q16",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 15:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "sql.q7",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 15:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "sql.q9",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "sql.q9",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "sql.q10",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 15:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "sql.q1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "sql.q17",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 15:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:11",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:11",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:11",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:11",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q1",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 15:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "sql.q5",
+  "error_code": "SQ-01",
+  "note": "字符串缺英文单引号",
+  "recorded_at": "2026-10-16 15:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "sql.q3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "sql.q9",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q7",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q10",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "sql.q8",
+  "error_code": "SQ-07",
+  "note": "排序字段或方向错误",
+  "recorded_at": "2026-10-16 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "sql.q1",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 15:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "sql.q3",
+  "error_code": "SQ-05",
+  "note": "DISTINCT 位置或作用域错误",
+  "recorded_at": "2026-10-16 15:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q4",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 15:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q14",
+  "error_code": "SQ-04",
+  "note": "EXISTS 子查询未关联外层",
+  "recorded_at": "2026-10-16 15:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "sql.q3",
+  "error_code": "SQ-05",
+  "note": "DISTINCT 位置或作用域错误",
+  "recorded_at": "2026-10-16 15:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "sql.q3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q14",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "sql.q1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "sql.q1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q11",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "sql.q16",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 15:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "sql.q8",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "sql.q3",
+  "error_code": "SQ-05",
+  "note": "DISTINCT 位置或作用域错误",
+  "recorded_at": "2026-10-16 15:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "sql.q3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "sql.q6",
+  "error_code": "SQ-01",
+  "note": "字符串缺英文单引号",
+  "recorded_at": "2026-10-16 15:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "sql.q14",
+  "error_code": "SQ-04",
+  "note": "EXISTS 子查询未关联外层",
+  "recorded_at": "2026-10-16 15:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "sql.q14",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "sql.q1",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 15:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "sql.q16",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 15:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "sql.q3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "sql.q3",
+  "error_code": "SQ-05",
+  "note": "DISTINCT 位置或作用域错误",
+  "recorded_at": "2026-10-16 15:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q14",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "sql.q12",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "sql.q7",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 15:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q17",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "sql.q5",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "sql.q1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "sql.q15",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 15:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "sql.q3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "sql.q9",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 15:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "sql.q7",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "sql.q9",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 15:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "sql.q16",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "sql.q11",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "sql.q15",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q15",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 15:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q6",
+  "error_code": "SQ-01",
+  "note": "字符串缺英文单引号",
+  "recorded_at": "2026-10-16 15:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q15",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "sql.q8",
+  "error_code": "SQ-07",
+  "note": "排序字段或方向错误",
+  "recorded_at": "2026-10-16 15:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "sql.q17",
+  "error_code": "SQ-08",
+  "note": "UPDATE/DELETE 漏 WHERE",
+  "recorded_at": "2026-10-16 15:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "sql.q12",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "sql.q2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "sql.q4",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 15:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "sql.q14",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "sql.q6",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "sql.q1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "sql.q3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "sql.q10",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "sql.q13",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "sql.q2",
+  "error_code": "SQ-06",
+  "note": "表名或列名拼写错误",
+  "recorded_at": "2026-10-16 15:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "sql.q4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-16 15:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "sql.q13",
+  "error_code": "SQ-03",
+  "note": "多行子查询用单值比较符",
+  "recorded_at": "2026-10-16 15:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "sql.q10",
+  "error_code": "SQ-02",
+  "note": "聚合函数写进 WHERE",
+  "recorded_at": "2026-10-16 15:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 09:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:01",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:01",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "BP-01",
+  "note": "外部实体画成方框",
+  "recorded_at": "2026-10-18 09:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 09:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "BP-05",
+  "note": "漏单据或单据错位",
+  "recorded_at": "2026-10-18 09:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 09:06",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 09:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "BP-01",
+  "note": "外部实体画成方框",
+  "recorded_at": "2026-10-18 09:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "BP-01",
+  "note": "外部实体画成方框",
+  "recorded_at": "2026-10-18 09:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 09:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "BP-05",
+  "note": "漏单据或单据错位",
+  "recorded_at": "2026-10-18 09:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 09:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:11",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:11",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:11",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 09:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 09:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 09:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "BP-01",
+  "note": "外部实体画成方框",
+  "recorded_at": "2026-10-18 09:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "BP-05",
+  "note": "漏单据或单据错位",
+  "recorded_at": "2026-10-18 09:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-03",
+  "note": "箭头未标注传递内容",
+  "recorded_at": "2026-10-18 09:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "BP-05",
+  "note": "漏单据或单据错位",
+  "recorded_at": "2026-10-18 09:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "BP-01",
+  "note": "外部实体画成方框",
+  "recorded_at": "2026-10-18 09:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 09:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 09:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "bpm.draw",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "BP-01",
+  "note": "外部实体画成方框",
+  "recorded_at": "2026-10-18 09:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 09:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "bpm.draw",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-03",
+  "note": "箭头未标注传递内容",
+  "recorded_at": "2026-10-18 09:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "BP-05",
+  "note": "漏单据或单据错位",
+  "recorded_at": "2026-10-18 09:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 09:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 09:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 09:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:29",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 09:29",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:30",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:30",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:30",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:30",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:30",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 09:31",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:31",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:31",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:31",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "bpm.draw",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-03",
+  "note": "箭头未标注传递内容",
+  "recorded_at": "2026-10-18 09:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 09:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 09:32",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:34",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:34",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:34",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:35",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:35",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:35",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:36",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:36",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 09:39",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:39",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:41",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 09:41",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 09:41",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:41",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 09:41",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:41",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:42",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "bpm.draw",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:42",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:43",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-03",
+  "note": "箭头未标注传递内容",
+  "recorded_at": "2026-10-18 09:43",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:43",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:43",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 09:43",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:43",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:45",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:45",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:45",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 09:45",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:46",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:46",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:46",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 09:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:47",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:48",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "bpm.draw",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:48",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:48",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:49",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:49",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:49",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 09:49",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:50",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:50",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:50",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 09:50",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "BP-05",
+  "note": "漏单据或单据错位",
+  "recorded_at": "2026-10-18 09:51",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:51",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:51",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 09:51",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:52",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:52",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "bpm.draw",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:52",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 09:52",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:53",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:53",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 09:53",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:54",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:54",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:55",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:55",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:56",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 09:57",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "BP-05",
+  "note": "漏单据或单据错位",
+  "recorded_at": "2026-10-18 09:57",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:57",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 09:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 09:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 09:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 09:58",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:59",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:59",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:59",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:59",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 09:59",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144029",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:00",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:01",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:01",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:01",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 10:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 10:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 10:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "BP-05",
+  "note": "漏单据或单据错位",
+  "recorded_at": "2026-10-18 10:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144020",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:02",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:03",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:04",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 10:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 10:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:05",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 10:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "bpm.draw",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:07",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 10:08",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 10:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144010",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "BP-05",
+  "note": "漏单据或单据错位",
+  "recorded_at": "2026-10-18 10:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 10:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "BP-05",
+  "note": "漏单据或单据错位",
+  "recorded_at": "2026-10-18 10:09",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 10:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 10:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 10:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:10",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:11",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "BP-01",
+  "note": "外部实体画成方框",
+  "recorded_at": "2026-10-18 10:12",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-03",
+  "note": "箭头未标注传递内容",
+  "recorded_at": "2026-10-18 10:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "BP-05",
+  "note": "漏单据或单据错位",
+  "recorded_at": "2026-10-18 10:13",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "bpm.draw",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 10:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144026",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:14",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:15",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144023",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 10:16",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:17",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144001",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 10:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "BP-01",
+  "note": "外部实体画成方框",
+  "recorded_at": "2026-10-18 10:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 10:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144006",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "BP-01",
+  "note": "外部实体画成方框",
+  "recorded_at": "2026-10-18 10:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:18",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144005",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144019",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 10:19",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144007",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "BP-04",
+  "note": "审批缺「不通过」回流",
+  "recorded_at": "2026-10-18 10:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144013",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:20",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 10:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "BP-02",
+  "note": "数据存储画成方框",
+  "recorded_at": "2026-10-18 10:21",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144009",
+  "exercise_id": "bpm.draw",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "BP-05",
+  "note": "漏单据或单据错位",
+  "recorded_at": "2026-10-18 10:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144027",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:22",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144015",
+  "exercise_id": "bpm.sort.borrow",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 10:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:23",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144002",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144012",
+  "exercise_id": "bpm.sym.store",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144016",
+  "exercise_id": "bpm.blank.b1",
+  "error_code": "BP-01",
+  "note": "外部实体画成方框",
+  "recorded_at": "2026-10-18 10:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144022",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:24",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144003",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "bpm.blank.b3",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144011",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144017",
+  "exercise_id": "bpm.sort.leave",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144021",
+  "exercise_id": "bpm.draw",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144025",
+  "exercise_id": "bpm.sym.proc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144030",
+  "exercise_id": "bpm.sym.ext",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:25",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144014",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "BP-06",
+  "note": "单位与处理混淆",
+  "recorded_at": "2026-10-18 10:26",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144018",
+  "exercise_id": "bpm.sym.unit",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144024",
+  "exercise_id": "bpm.blank.b2",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144028",
+  "exercise_id": "bpm.blank.b4",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:27",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144004",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:28",
+  "class_id": "信管2301"
+ },
+ {
+  "student_id": "2305144008",
+  "exercise_id": "bpm.sym.doc",
+  "error_code": "PASS",
+  "note": "",
+  "recorded_at": "2026-10-18 10:28",
+  "class_id": "信管2301"
+ }
+]
