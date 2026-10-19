@@ -207,7 +207,7 @@
       var head = el('div', 'page-head');
       head.innerHTML = '<div><div class="crumb">实验三 · 依据第五章《管理信息系统规划》业务流程图</div><h2>分析业务流程</h2>' +
         '<p class="sub">目标：能把一段口语描述抽象成"谁 → 做了什么 → 产生什么单据"，再用五类图元画出业务流程图</p></div>' +
-        '<div class="btn-row"><button class="btn sm" id="bpmAi">问 AI 助教</button><span class="badge warn">建议 90 分钟</span></div>';
+        '<div class="btn-row"><button class="btn sm" id="bpmAi">截图问助教</button><span class="badge warn">建议 90 分钟</span></div>';
       root.appendChild(head);
       head.querySelector('#bpmAi').addEventListener('click', function () {
         if (window.CloudApp) window.CloudApp.openAsk(window.LabAI ? window.LabAI() : null);

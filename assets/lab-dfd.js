@@ -279,7 +279,7 @@
       '<button class="btn sm" id="delBtn">删除所选</button>' +
       '<span class="sep"></span>' +
       '<button class="btn sm" id="checkBtn">自检并打分</button>' +
-      '<button class="btn sm" id="aiBtn">问 AI 助教</button>' +
+      '<button class="btn sm" id="aiBtn">截图问助教</button>' +
       '<button class="btn sm ghost" id="clearBtn">清空</button>' +
       '<span class="small muted" id="cntInfo" style="margin-left:auto"></span>';
     var canvas = el('div', 'canvas');

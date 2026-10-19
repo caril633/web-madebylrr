@@ -237,7 +237,7 @@
           '<div class="badge ' + (Store.data.sql.done[t.id] ? 'ok' : '') + '" id="taskState">' + (Store.data.sql.done[t.id] ? '已通过' : '未完成') + '</div></div>' +
           '<div class="editor-shell" style="margin-top:12px">' +
           '<div class="editor-bar"><span class="ttl">SQL 编辑器</span><span class="small muted">Ctrl + Enter 运行</span>' +
-          '<span style="margin-left:auto"></span><button class="btn sm" id="hintBtn">问助教</button><button class="btn sm" id="aiBtn">问 AI 助教</button><button class="btn sm" id="refBtn">看答案</button></div>' +
+          '<span style="margin-left:auto"></span><button class="btn sm" id="hintBtn">问助教</button><button class="btn sm" id="aiBtn">截图问助教</button><button class="btn sm" id="refBtn">看答案</button></div>' +
           '<textarea class="sql" id="editor" spellcheck="false" placeholder="在这里写 SQL…"></textarea></div>' +
           '<div class="btn-row" style="margin-top:10px"><button class="btn primary" id="runBtn">运行</button><button class="btn" id="judgeBtn">提交判分</button>' +
           '<span class="small muted" id="runInfo"></span></div>' +

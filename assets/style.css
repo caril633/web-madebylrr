@@ -552,3 +552,17 @@ pre.code {
   .bpmw-wrap .palette { flex-direction: row; flex-wrap: wrap; position: static; }
   .bpmw-wrap .palette .pal-item { flex: 1 1 120px; }
 }
+
+/* ---------- 自托管模式：问助教提示卡（替代 AI 对话框） ---------- */
+.ai-fab.ask { background: linear-gradient(140deg, #0f766e, #14a08c); box-shadow: 0 8px 22px rgba(15, 118, 110, .3); }
+.ai-fab.ask:hover { box-shadow: 0 10px 26px rgba(15, 118, 110, .38); }
+.ask-panel { height: auto; max-height: calc(100vh - 44px); }
+.ask-body { gap: 10px; }
+.ask-step { margin: 0; font-size: 13px; line-height: 1.65; color: var(--ink); }
+.ask-step b { display: inline-block; margin-right: 6px; color: var(--ink); }
+.ask-step span { color: var(--ink-2); }
+.ask-tip { background: var(--brand-soft); color: var(--brand); border-radius: 10px; padding: 9px 11px; font-size: 12px; line-height: 1.6; }
+.ask-ctx { margin: 0 2px 2px; padding: 7px 10px; border-radius: 9px; background: var(--surface-2, #f4f6f8); font-size: 12px; line-height: 1.5; }
+.ask-ctx b { font-weight: 600; margin-right: 6px; color: var(--ink); }
+.ask-ctx span { color: var(--ink-2); }
+.ask-body .btn.block { margin-top: 2px; }

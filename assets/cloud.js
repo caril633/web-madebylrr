@@ -14,6 +14,10 @@
   var TABLE = 'lab_progress';
   var ASK_LIMIT = 30;
 
+  /* 云能力只在官方托管域名下启用。GitHub Pages / 本地文件等自托管场景自动降级为
+     「本机模式」：不连云端、不显示 AI 对话，只给一张「截图发给智能体助教」的提示卡。 */
+  var CLOUD_ON = /\.workbuddy\.host$/i.test(location.hostname);
+
   var S = {
     sdk: null,
     sdkError: '',
@@ -459,7 +463,15 @@
   function openAsk(ctx) {
     if (ctx) S.ctx = ctx;
     var panel = document.getElementById('aiPanel');
-    if (!panel) return;
+    if (!panel) {
+      /* 站内对话框已下线：点「问助教」直接打开截图提示卡，并显示当前题目 */
+      mountAskTip();
+      var tip = document.getElementById('askPanel');
+      if (!tip) return;
+      renderAskCtx();
+      tip.classList.add('on');
+      return;
+    }
     panel.classList.add('on');
     renderCtx();
     loadModels();
@@ -604,8 +616,7 @@
       acct.className = 'acct';
       side.insertBefore(acct, side.firstChild);
     }
-
-    if (!document.getElementById('ccMask')) {
+    if (CLOUD_ON && !document.getElementById('ccMask')) {
       var mask = document.createElement('div');
       mask.id = 'ccMask';
       mask.className = 'modal-mask';
@@ -634,42 +645,8 @@
       mask.querySelector('#ccPhone').addEventListener('input', function () { showAuthErr(''); });
     }
 
-    if (!document.getElementById('aiPanel')) {
-      var fab = document.createElement('button');
-      fab.id = 'aiFab';
-      fab.className = 'ai-fab';
-      fab.innerHTML = '<span>✦</span> AI 助教';
-      document.body.appendChild(fab);
-      fab.addEventListener('click', function () {
-        var p = document.getElementById('aiPanel');
-        if (p && p.classList.contains('on')) closeAsk(); else openAsk(pickContext());
-      });
-
-      var panel = document.createElement('div');
-      panel.id = 'aiPanel';
-      panel.className = 'ai-panel';
-      panel.innerHTML =
-        '<div class="ai-head"><div class="ai-title">✦ AI 助教<span class="tiny muted">按本课程规则批改，不直接给答案</span></div>' +
-        '<select id="aiModel" title="选择模型"></select>' +
-        '<button class="ai-icon" id="aiNew" title="新对话">＋</button>' +
-        '<button class="ai-icon" id="aiClose" title="关闭">×</button></div>' +
-        '<div class="ai-ctx" id="aiCtx"></div>' +
-        '<div class="ai-body" id="aiBody"></div>' +
-        '<div class="ai-foot"><textarea id="aiInput" rows="1" placeholder="说说你卡在哪一步…（Enter 发送，Shift+Enter 换行）"></textarea>' +
-        '<button class="btn primary sm" id="aiSend">发送</button></div>';
-      document.body.appendChild(panel);
-      panel.querySelector('#aiClose').addEventListener('click', closeAsk);
-      panel.querySelector('#aiNew').addEventListener('click', newChat);
-      panel.querySelector('#aiSend').addEventListener('click', function () {
-        if (S.generating) { if (S.abort) S.abort.abort(); return; }
-        send();
-      });
-      panel.querySelector('#aiModel').addEventListener('change', function () { S.modelId = this.value; });
-      panel.querySelector('#aiInput').addEventListener('keydown', function (e) {
-        if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); }
-      });
-      newChat();
-    }
+    /* 站内不再提供对话框（两个域名一致）：只留「截图发给智能体助教」提示卡 */
+    mountAskTip();
 
     if (!document.getElementById('ccToast')) {
       var t = document.createElement('div');
@@ -677,6 +654,82 @@
       t.className = 'toast';
       document.body.appendChild(t);
     }
+  }
+
+  /* 自托管（GitHub Pages 等）：不提供对话框，改为「截图发给智能体助教」的提示卡 */
+  function mountAskTip() {
+    if (document.getElementById('askFab')) return;
+    var fab = document.createElement('button');
+    fab.id = 'askFab';
+    fab.className = 'ai-fab ask';
+    fab.innerHTML = '<span>✉</span> 遇到不会的？';
+    document.body.appendChild(fab);
+
+    var panel = document.createElement('div');
+    panel.id = 'askPanel';
+    panel.className = 'ai-panel ask-panel';
+    panel.innerHTML =
+      '<div class="ai-head"><div class="ai-title">问课程 AI 助教<span class="tiny muted">把截图发给它</span></div>' +
+      '<button class="ai-icon" id="askClose" title="关闭">×</button></div>' +
+      '<div class="ask-ctx" id="askCtx" style="display:none"></div>' +
+      '<div class="ai-body ask-body">' +
+      '<p class="ask-step"><b>① 截图</b><span>题目、你画的图、你写的 SQL，截一张就行。</span></p>' +
+      '<p class="ask-step"><b>② 发给助教</b><span>在课程群打开「AI 助教」智能体，把图发过去，顺带说一句学号。</span></p>' +
+      '<p class="ask-step"><b>③ 它会讲</b><span>错在哪、为什么错、下一步练哪道题——但不会直接给你答案。</span></p>' +
+      '<div class="ask-tip">想让它看得更准：先复制下面的学情报告，和截图一起发过去。</div>' +
+      '<button class="btn primary block" id="askCopy">复制我的学情报告</button>' +
+      '<p class="tiny muted" style="margin-top:10px">老师：对助教说【教师模式】，可以看班级共性问题。</p>' +
+      '</div>';
+    document.body.appendChild(panel);
+
+    fab.addEventListener('click', function () {
+      var on = panel.classList.toggle('on');
+      if (on) { S.ctx = pickContext(); renderAskCtx(); }
+    });
+    panel.querySelector('#askClose').addEventListener('click', function () {
+      panel.classList.remove('on');
+    });
+    panel.querySelector('#askCopy').addEventListener('click', function () {
+      var btn = this;
+      var txt = (typeof window.MISReport === 'function')
+        ? window.MISReport()
+        : '（还没有做题记录，先去实验里做几道题吧）';
+      copyToClipboard(txt).then(function () {
+        btn.textContent = '已复制 ✓ 粘贴给助教就行';
+        setTimeout(function () { btn.textContent = '复制我的学情报告'; }, 2400);
+      }, function () {
+        btn.textContent = '复制失败，请到「学习报告」页手动复制';
+      });
+    });
+  }
+
+  /* 提示卡顶部的「当前题目」，让学生截图时知道自己在问什么 */
+  function renderAskCtx() {
+    var box = document.getElementById('askCtx');
+    if (!box) return;
+    var c = S.ctx;
+    var task = c && c.task ? String(c.task).slice(0, 64) : '';
+    box.innerHTML = task ? '<b>当前题目</b><span>' + esc(task) + '</span>' : '';
+    box.style.display = task ? '' : 'none';
+  }
+
+  function copyToClipboard(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      return navigator.clipboard.writeText(text);
+    }
+    return new Promise(function (resolve, reject) {
+      try {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        var ok = document.execCommand('copy');
+        document.body.removeChild(ta);
+        ok ? resolve() : reject(new Error('copy failed'));
+      } catch (e) { reject(e); }
+    });
   }
 
   function pickContext() {
@@ -705,6 +758,11 @@
   function renderAccount() {
     var box = document.getElementById('ccAcct');
     if (!box) return;
+    if (!CLOUD_ON) {
+      box.innerHTML = '<div class="acct-row"><span class="avatar">◐</span><div><b>本机模式</b>' +
+        '<span class="tiny">进度只保存在这台设备</span></div></div>';
+      return;
+    }
     if (S.sdkError) {
       box.innerHTML = '<div class="acct-row"><span class="avatar">!</span><div><b>云服务未连接</b>' +
         '<span class="tiny">' + esc(S.sdkError) + '</span></div></div>';
@@ -738,6 +796,12 @@
   function renderReportCard() {
     var box = document.getElementById('cloudPanel');
     if (!box) return;
+    if (!CLOUD_ON) {
+      box.innerHTML = '<h3>进度保存</h3>' +
+        '<p class="small hint">当前是自托管版本，进度保存在本机浏览器，换设备不会自动同步。' +
+        '交作业请用上方「打印 / 存为 PDF」，或复制学情报告发给课程 AI 助教。</p>';
+      return;
+    }
     if (S.sdkError) {
       box.innerHTML = '<h3>云端同步</h3><p class="small hint">' + esc(S.sdkError) + '</p>';
       return;
@@ -776,6 +840,12 @@
   function init() {
     mount();
     renderAccount();
+    if (!CLOUD_ON) {
+      /* 自托管模式：不初始化 SDK，只用本机存储 + 提示卡 */
+      renderReportCard();
+      emit();
+      return;
+    }
     if (!window.WorkBuddyCloud || typeof window.WorkBuddyCloud.createWorkBuddyCloud !== 'function') {
       S.sdkError = '云服务脚本未加载（当前可能离线，或直接双击本地文件打开）';
       renderAccount();
