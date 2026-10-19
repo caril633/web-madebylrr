@@ -23,16 +23,16 @@
 - **自研迷你 SQL 引擎**（`assets/sql-engine.js`，约 600 行）：支持 `SELECT / WHERE / BETWEEN / LIKE / 聚合 / GROUP BY / HAVING / 排序`、四类嵌套查询（`IN`、比较符、`ANY·ALL`、`EXISTS`）以及增删改。学生写的语句真的跑在数据上，报错会翻译成可读的错因。
 - **画图工作台**：五类图元拖拽、连线、命名，自检按规则逐项打分并给出具体诊断，而不是只给一个分数。
 - **AI 助教闭环**：学生在哪道题上卡住，助教知道上下文（题目、他的 SQL、判分反馈），判完写进「错题登记表」；教师说【教师模式】就能拿到班级共性错因、错题 Top 5 和补讲建议。
-- **离线可用**：三个实验、判分、画图全部在浏览器本地运行，断网照做；只有登录同步与 AI 对话需要联网。
+- **离线可用**：三个实验、判分、画图全部在浏览器本地运行，打开就能做，无需注册登录。
 
 ## 在线体验
 
-- 总览：https://mis-lab-assistant.app.workbuddy.host/
-- 实验一：https://mis-lab-assistant.app.workbuddy.host/#dfd
-- 实验二：https://mis-lab-assistant.app.workbuddy.host/#sql
-- 实验三：https://mis-lab-assistant.app.workbuddy.host/#bpm
+- **练习入口（学生用这个）**：https://caril633.github.io/web-madebylrr/
+  三个实验、判分、画图全在里面，打开就能做，进度自动保存在本机浏览器。智能体助教向学生推荐的就是这个链接。
+- **云端账号版（可选）**：https://mis-lab-assistant.app.workbuddy.host/
+  内容与练习入口完全一致；需要**登录后云端同步进度**（换设备接着做）时用这个版本。
 
-> 若链接不可用，可直接下载本仓库，双击 `index.html` 运行（除登录与 AI 之外的功能全部可用）。
+> 若链接不可用，可直接下载本仓库，双击 `index.html` 运行（全部实验功能可用）。
 
 ## 本地运行
 
@@ -59,7 +59,7 @@ python -m http.server 8000
 │   ├── lab-bpm.js             实验三：业务流程（图元 / 排序 / 填空）
 │   ├── lab-bpm-draw.js        实验三：自绘业务流程图
 │   ├── app.js                 外壳：导航、进度、报告
-│   ├── cloud.js               云服务接入：登录、进度同步、AI 助教
+│   ├── cloud.js               云服务接入：登录、进度同步
 │   └── vendor/                云服务 SDK（本地打包，不依赖 CDN）
 ├── 智能体/
 │   ├── 01-系统提示词-v2.md     助教系统提示词（四入口、五步工作流、说话方式、边界）
@@ -67,7 +67,6 @@ python -m http.server 8000
 │   ├── 03-系统方案.md          系统设计说明
 │   ├── 04-错题登记表-字段清单.md
 │   └── 测试数据/               30 名学生的模拟错题数据（用于教师端演示）
-├── 二维码/                     各入口二维码（课堂投屏用）
 ├── 实验指导书.md               教师用：学时、步骤、评分量规
 └── 学生使用说明.md             可直接发班级群
 ```
@@ -76,7 +75,7 @@ python -m http.server 8000
 
 - 原生 HTML / CSS / JavaScript，无框架、无构建步骤，双击即用
 - 自研 SQL 解析与执行引擎（不依赖 sql.js 等外部库）
-- 云服务：WorkBuddy 云（PostgreSQL + RLS、手机验证码 / 微信登录、大模型流式对话）
+- 云端账号版额外接入云服务（PostgreSQL + RLS、手机验证码 / 微信登录）
 
 ## 关于 AI 助教
 

@@ -34,6 +34,9 @@
   };
   window.Store = Store;
 
+  /* 云端能力是否可用（GitHub Pages 等自托管环境为 false，页面上不出现登录/云同步字样） */
+  function cloudOn() { return !!(window.CloudApp && window.CloudApp.cloudOn); }
+
   /* ---------------- 页面骨架 ---------------- */
   var main = document.getElementById('main');
   var navBtns = Array.prototype.slice.call(document.querySelectorAll('.nav-item'));
@@ -114,7 +117,8 @@
     hero.innerHTML =
       '<h2>三个实验，把「看不懂的图」变成「画得出来的图」</h2>' +
       '<p>本平台依据第四章《数据库设计》与第五章《管理信息系统规划》的课件内容搭建：先认符号与语法，再在可运行的环境里动手，最后由智能助教按规则逐条批改。三个实验共同指向同一件事 —— 把业务说清楚，才能把数据存明白。</p>' +
-      '<div class="meta"><div><b>3</b>个实验</div><div><b>40</b>个练习点</div><div><b>' + total + ' / ' + all + '</b>当前完成</div><div><b>云</b>进度可同步</div></div>';
+      '<div class="meta"><div><b>3</b>个实验</div><div><b>40</b>个练习点</div><div><b>' + total + ' / ' + all + '</b>当前完成</div><div><b>' +
+      (cloudOn() ? '云' : '本机') + '</b>' + (cloudOn() ? '进度可同步' : '进度自动保存') + '</div></div>';
     main.appendChild(hero);
 
     var grid = el('div', 'grid-3');
@@ -142,9 +146,13 @@
     how.innerHTML =
       '<h3>怎么用这三个实验</h3>' +
       '<div class="grid-3" style="margin-top:10px">' +
-      '<div><div class="badge accent">第 1 步 · 课前</div><p class="small hint" style="margin-top:8px">在侧边栏登录你的账号，进度会自动同步到云端。跟着 AI 助教的提示走：它会按三个实验的顺序提问、给提示、批改，而不是直接给答案。</p></div>' +
+      '<div><div class="badge accent">第 1 步 · 课前</div><p class="small hint" style="margin-top:8px">' +
+      (cloudOn() ? '在侧边栏登录你的账号，进度会自动同步到云端。' : '打开实验就能做，进度自动存在这台设备上，下次打开接着做。') +
+      '跟着 AI 助教的提示走：它会按三个实验的顺序提问、给提示、批改，而不是直接给答案。</p></div>' +
       '<div><div class="badge brand">第 2 步 · 课中</div><p class="small hint" style="margin-top:8px">每个实验先做「认符号 / 认语法」的小测，再进工作台。卡住时点「问助教」，它只会给你下一小步，不会替你画完。</p></div>' +
-      '<div><div class="badge warn">第 3 步 · 课后</div><p class="small hint" style="margin-top:8px">打开「学习报告」，看每一项的得分与未完成项。登录后进度会自动同步到云端，换台电脑打开同一个链接就能接着做；报告页可打印或存为 PDF 交给老师。</p></div>' +
+      '<div><div class="badge warn">第 3 步 · 课后</div><p class="small hint" style="margin-top:8px">打开「学习报告」，看每一项的得分与未完成项。' +
+      (cloudOn() ? '登录后进度会自动同步到云端，换台电脑打开同一个链接就能接着做；' : '把报告复制给 AI 助教，它就能按学号记下你的错题；') +
+      '报告页可打印或存为 PDF 交给老师。</p></div>' +
       '</div>';
     main.appendChild(how);
   }
@@ -158,9 +166,9 @@
     var head = el('div', 'page-head');
     head.innerHTML = '<div><div class="crumb">LEARNING REPORT</div><h2>学习报告</h2><p class="sub">' +
       (Store.data.name ? '学生：' + escapeHtml(Store.data.name) + '　·　' : '') +
-      (window.CloudApp && window.CloudApp.isLoggedIn()
-        ? '已登录，进度自动同步到云端'
-        : '未登录，记录只保存在本机浏览器（可登录后同步）') + '</p></div>' +
+      (cloudOn()
+        ? (window.CloudApp.isLoggedIn() ? '已登录，进度自动同步到云端' : '未登录，记录只保存在本机浏览器（可登录后同步）')
+        : '记录保存在本机浏览器，做完把报告复制给 AI 助教即可归档') + '</p></div>' +
       '<div class="btn-row"><button class="btn primary" id="copyRepBtn">复制学情报告给 AI 助教</button><button class="btn" id="printBtn">打印 / 存为 PDF</button><button class="btn" id="resetBtn">清空记录</button></div>';
     main.appendChild(head);
     head.querySelector('#copyRepBtn').addEventListener('click', function () {
@@ -168,7 +176,7 @@
     });
     head.querySelector('#printBtn').addEventListener('click', function () { window.print(); });
     head.querySelector('#resetBtn').addEventListener('click', function () {
-      if (confirm('确定清空本机所有实验记录？此操作不可撤销（云端记录不会自动删除）。')) { Store.reset(); go('report'); }
+      if (confirm('确定清空本机所有实验记录？此操作不可撤销' + (cloudOn() ? '（云端记录不会自动删除）。' : '。'))) { Store.reset(); go('report'); }
     });
 
     var cloud = el('div', 'card');

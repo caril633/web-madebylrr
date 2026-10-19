@@ -878,6 +878,7 @@
   });
 
   window.CloudApp = {
+    cloudOn: CLOUD_ON,
     onUser: onUser,
     openLogin: openLogin,
     closeLogin: closeLogin,
